@@ -83,7 +83,6 @@
             addDevice(){
                 //...
                 //var obj = JSON.parse()
-                
                 this.devices.push(JSON.parse(JSON.stringify(this.newDevice)))
             },
 
@@ -99,7 +98,7 @@
                     {
                          name: "office",
                          id: "8838",
-                         userId: "12212",
+                         userId: "312",
                          value: 15
                     },
                      {
