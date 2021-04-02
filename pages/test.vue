@@ -55,7 +55,7 @@
 <script>
     export default{
         data(){
-            return {
+            return { //codigo importante
                 //number: 0,
                 devices: [],
                 newDevice: {
