@@ -1,6 +1,11 @@
 <template>
     <div style="padding:30px">
 
+        <Contador :initialValue ="33" :delay="100"></Contador>
+        <Contador :initialValue ="10000000" :delay="10"></Contador>
+
+        <hr>
+
         <h3>Devices -> {{devices.length}}</h3>
 
         <br>
@@ -63,7 +68,8 @@
                     id: '',
                     userId: '',
                     value: ''
-                }
+                },
+
             }
         },
 
@@ -75,7 +81,7 @@
 
                 //console.log("montado -> " + Date.now());
                 //setTimeout(() => {
-                this.getDevices();
+                //this.getDevices();
                 //this.increment(); 
            // }, 1000);
         },
