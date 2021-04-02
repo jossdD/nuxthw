@@ -1,4 +1,9 @@
 <template>
+    
+    <div>
+
+       <h1>Test 1</h1>
+       
     <div style="padding:30px">
 
         <Contador :initialValue ="33" :delay="100"></Contador>
@@ -53,7 +58,7 @@
         <br><hr><br>
 
         <pre>{{newDevice}}</pre>
-
+    </div>
     </div>
 </template>
 

@@ -1,5 +1,15 @@
 <template>
   <div>
+    <nav class="menu">
+      <ul>
+        <li><NuxtLink to="test1">Test 1</NuxtLink></li>
+        <li><NuxtLink to="test2">Test 2</NuxtLink></li>
+        <li><NuxtLink to="test3">Test 3</NuxtLink></li>
+      </ul>
+    </nav>
+    <img src="https://www.ngenespanol.com/wp-content/uploads/2018/08/La-primera-imagen-de-la-historia.jpg"
+    height="300">
+
     <Nuxt />
   </div>
 </template>
